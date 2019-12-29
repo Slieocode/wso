@@ -1,0 +1,38 @@
+header.join-header{
+	position: relative;
+	.join-holder{
+		display: flex;
+	}
+	.form{
+		width:580px;
+	}
+	img{
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 44%;
+	    height: 100vh;
+	}
+	input{
+		padding:8px;
+		margin:5px;
+		margin-top:3%;
+		border:none;
+		border-bottom:3px solid $accent;
+		width:250px;
+		outline:none;
+	}
+	button{
+			margin-top:5%;
+			outline: none;
+			cursor: pointer;
+            background: linear-gradient(180deg, #FDD400 0%, #FEBA21 100%);
+            border:none;
+            color:#FFF;
+            font-size:1.4em;
+            font-weight: bold;
+            width:90%;
+            line-height: 65px;
+
+	}
+}

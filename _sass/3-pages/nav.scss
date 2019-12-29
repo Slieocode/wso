@@ -1,0 +1,32 @@
+nav{
+	position: relative;
+	top:-100%;
+	opacity: 0;
+	display: flex;
+	img{
+		width:150px
+	}
+	padding-top:1%;
+	.logo{
+		flex:.2;
+	}
+}
+.nav-ul{
+	padding-top:1.5%;
+	display: flex;
+	flex:.8;
+	justify-content: space-evenly;
+	div{
+		display: flex;
+	    flex: .4;
+	    justify-content: space-between;
+		a{
+		  color: white;
+		  mix-blend-mode: screen
+		}
+	}
+	li{
+		font-weight:700;
+		font-size:14px;
+	}
+}
