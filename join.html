@@ -19,15 +19,22 @@ data-sal="slide-up"
 		  data-sal-easing="ease-out-back"
 				action="#">
 					<div class="div">
-						<input type="text" placeholder="First Name">
-						<input type="text" placeholder="Surename">						
+						<input required="required" type="text" placeholder="First Name">
+						<input required="required" type="text" placeholder="Surename">						
 					</div>
-						<input type="email" placeholder="Email">
-						<input type="phone" placeholder="Telephone">
-						<input type="password" placeholder="Password">
-						<input type="Password" placeholder="Rewrite Password">
-						<input type="zipcode" placeholder="Post Code">
-						<input type="date" placeholder="Date of birth">
+						<input required="required" type="email" placeholder="Email">
+						<input required="required" type="phone" placeholder="Telephone">
+						<input required="required" type="zipcode" placeholder="Post Code">
+						<input required="required" type="date" placeholder="Date of birth">
+						<div class="checkbox-container">
+							<input required="required" type="checkbox" id="policy"><label for="policy">by signing up you agree to our <a href="/policy">terms & privacy policy</a></label>
+						</div>
+						<div class="checkbox-container">
+							<h5>Connect Me Via</h5>
+							<input type="checkbox" id="phone"><label for="phone">Phone</label>
+							<input type="checkbox" id="email"><label for="email">Email</label>
+							<input type="checkbox" id="post"><label for="post">Post</label>
+						</div>
 						<button>SIGN UP FOR FREE</button>
 				</form>
 			</div>
