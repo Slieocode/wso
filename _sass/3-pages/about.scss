@@ -9,6 +9,16 @@ header.about-header{
  	}
  		.header-text-content{
 		height:60vh;
+		> .container{
+			padding-top:2%;
+		}
+
+		.over{
+			width: 100%;
+		    margin-top: 0%;
+		    padding: 10px;
+		    background: rgba(0, 0, 0, .4);
+		}
 		.cover{
 			position: absolute;
 		    width: 100%;
@@ -27,12 +37,12 @@ header.about-header{
 	    	width:700px;
 	    	margin:0 auto;
 	    	margin-bottom:1%;
-	    		    	color:#000;
+	    		    	color:#FFF;
 
 	    }
 	    p{
 	    	margin:0 auto;
-	    	color:#000;
+	    	color:#FFF;
 	    	font-weight: bold;
 
 	    }

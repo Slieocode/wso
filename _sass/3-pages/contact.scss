@@ -10,6 +10,17 @@ header.contact-header{
 	.header-text-content{
 		height:60vh;
 	    position:relative;
+		> .container{
+			padding-top:2%;
+		}
+		
+		.over{
+			width: 100%;
+		    margin-top: 0%;
+		    padding: 10px;
+		    background: rgba(0, 0, 0, .4);
+		}
+
 		.cover{
 			position: absolute;
 		    width: 100%;
@@ -26,13 +37,13 @@ header.contact-header{
 	    h1{
 	    	padding-top:4%;
 	    	font-size:2.3em;
-	    	color:#000;
+	    	color:#FFF;
 	    }
 	    p{
 	    	font-weight: bold;
-	    	
+
 	    	margin:0 auto;
-	    	color:#000;
+	    	color:#FFF;
 	    }
 	    a{
 	    	color: #75d7ff;
