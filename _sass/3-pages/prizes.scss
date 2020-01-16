@@ -8,8 +8,18 @@ header.prizes-header{
 	}
 
 	.header-text-content{
+		.cover{
+			position: absolute;
+		    width: 100%;
+		    height: 100%;
+		    overflow: hidden;
+		    z-index: -9;
+			img{
+				width: 100%;
+			    transform: translate(0, -28%);
+			}
+		}
 		height:60vh;
-		background: url('../img/prizes/hero1.jpg');
 	    background-size: cover;
 	    background-position: 84% 65%;
 	    background-attachment: fixed;
