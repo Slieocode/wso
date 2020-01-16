@@ -14,7 +14,7 @@ header.about-header{
 		    width: 100%;
 		    height: 100%;
 		    overflow: hidden;
-		    z-index: -9;
+		    z-index: 9;
 			img{
 				width: 100%;
 			    // transform: translate(0, -28%);
@@ -27,9 +27,13 @@ header.about-header{
 	    	width:700px;
 	    	margin:0 auto;
 	    	margin-bottom:1%;
+	    		    	color:#000;
+
 	    }
 	    p{
 	    	margin:0 auto;
+	    	color:#000;
+
 	    }
 	    a{
 	    	color: #75d7ff;
